@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C54009223E3781100294148 /* RandomPersonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C54009123E3781100294148 /* RandomPersonCell.xib */; };
+		0C54009423E37AE600294148 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54009323E37AE600294148 /* MainView.swift */; };
 		CDA0F5CE2348F74900B2E7F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA0F5CD2348F74900B2E7F0 /* AppDelegate.swift */; };
 		CDA0F5D02348F74900B2E7F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA0F5CF2348F74900B2E7F0 /* SceneDelegate.swift */; };
 		CDA0F5D22348F74900B2E7F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA0F5D12348F74900B2E7F0 /* ViewController.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C54009123E3781100294148 /* RandomPersonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RandomPersonCell.xib; sourceTree = "<group>"; };
+		0C54009323E37AE600294148 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CDA0F5CA2348F74900B2E7F0 /* ProgrammaticUserCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticUserCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA0F5CD2348F74900B2E7F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDA0F5CF2348F74900B2E7F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,11 +96,13 @@
 				CDA0F5FA2349003E00B2E7F0 /* Networking */,
 				CDA0F5CD2348F74900B2E7F0 /* AppDelegate.swift */,
 				CDA0F5CF2348F74900B2E7F0 /* SceneDelegate.swift */,
+				0C54009323E37AE600294148 /* MainView.swift */,
 				CDA0F5D12348F74900B2E7F0 /* ViewController.swift */,
 				CDA0F5EF2348F7E300B2E7F0 /* User.swift */,
 				CDA0F5D62348F74F00B2E7F0 /* Assets.xcassets */,
 				CDA0F5D82348F74F00B2E7F0 /* LaunchScreen.storyboard */,
 				CDA0F5DB2348F74F00B2E7F0 /* Info.plist */,
+				0C54009123E3781100294148 /* RandomPersonCell.xib */,
 			);
 			path = ProgrammaticUserCells;
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA0F5F32348FB8200B2E7F0 /* randomUserSampleResponse.json in Resources */,
+				0C54009223E3781100294148 /* RandomPersonCell.xib in Resources */,
 				CDA0F5DA2348F74F00B2E7F0 /* LaunchScreen.storyboard in Resources */,
 				CDA0F5D72348F74F00B2E7F0 /* Assets.xcassets in Resources */,
 			);
@@ -223,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA0F5F02348F7E300B2E7F0 /* User.swift in Sources */,
+				0C54009423E37AE600294148 /* MainView.swift in Sources */,
 				CDA0F5D22348F74900B2E7F0 /* ViewController.swift in Sources */,
 				CDA0F5F52348FE8800B2E7F0 /* AppError.swift in Sources */,
 				CDA0F5CE2348F74900B2E7F0 /* AppDelegate.swift in Sources */,
